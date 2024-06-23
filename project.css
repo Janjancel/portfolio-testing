@@ -1,0 +1,66 @@
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #082f49;
+}
+
+#portfolio h3 {
+    color: #e5e5e5;
+    font-weight: 500;
+
+}
+/* #171717 */
+.project-container {
+    background-color: #082f49;
+    /* filter: blur(4px); */
+    flex: 25%;
+    max-width: 24%;
+    height: 500px;
+    margin: 2px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 2%;
+}
+
+.project-container h3  {
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.project-container button {
+    background-color: #262626;
+    border-radius: 5px;
+}
+
+.project-container button a {
+    color: #e5e5e5;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.project-container label p{
+    color: #e5e5e5;
+    font-size: 15px;
+    
+}
+
+.article {
+    background-color: #0f172a;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 0.5px blue;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .project-container {
+        flex: 50%;
+        max-width: 49%;
+        margin: 2px;
+        padding-top: 85px;
+    }
+}
