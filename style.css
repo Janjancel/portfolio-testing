@@ -49,6 +49,10 @@ nav a {
 
 }
 
+nav a img {
+    display: none;
+}
+
 nav a:hover,
 nav a.active{
     color: #0ef;
@@ -311,6 +315,11 @@ footer hr {
         margin: 0 10px 0 5px;
     
     } */
+    nav a img {
+        display: inline;
+        height: 20px;
+    }
+
     .navbar {
         overflow: hidden;
         background-color: #0f172a;
